@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+
+    android:layout_height="wrap_content"
+
+
+    android:elevation="4dp"
+    android:id="@+id/scores_list_item"
+    android:background="@drawable/list_item" >
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="3dp"
+        android:id="@+id/list_view_row"
+        >
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+            <ImageView
+                style="@style/ViewHolderImage"
+                android:layout_gravity="center"
+                android:id="@+id/home_crest"
+                android:contentDescription="@string/home_image_description"/>
+            <TextView
+                style="@style/WidgetItem"
+                android:text="@string/test_text"
+                android:id="@+id/home_name"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+            <TextView
+                style="@style/ScoreItem"
+                android:text="@string/test_text"
+                android:id="@+id/score_textview"/>
+            <TextView
+                style="@style/DataItem"
+                android:text="@string/test_text"
+                android:id="@+id/data_textview"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+            <ImageView
+                style="@style/ViewHolderImage"
+                android:layout_gravity="center"
+                android:id="@+id/away_crest"
+                android:contentDescription="@string/away_image_description" />
+            <TextView
+                style="@style/WidgetItem"
+                android:text="@string/test_text"
+                android:id="@+id/away_name"/>
+        </LinearLayout>
+    </LinearLayout>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/details_fragment_container">
+    </FrameLayout>
+</LinearLayout>
+
+

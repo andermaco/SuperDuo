@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/xtra/workspaceNanoDegree/Football_Scores-master/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="73753982da6bde518f3a4c6b372749981d14d1a0">
+        <dex dex="/xtra/workspaceNanoDegree/Football_Scores-master/app/build/intermediates/pre-dexed/debug/classes-14214138bb2bf623256dee18afd72a5c2473bb4b.jar" />
+    </item>
+    <item
+        jar="/home/cammac/.gradle/caches/modules-2/files-2.1/cz.msebera.android/httpclient/4.3.6/526a9f794eab830eae4f23a62c572878b3f491ab/httpclient-4.3.6.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="526a9f794eab830eae4f23a62c572878b3f491ab">
+        <dex dex="/xtra/workspaceNanoDegree/Football_Scores-master/app/build/intermediates/pre-dexed/debug/httpclient-4.3.6-6c2b721b35a1f7d93f9f087332ef14cc4c2f46ba.jar" />
+    </item>
+    <item
+        jar="/xtra/workspaceNanoDegree/Football_Scores-master/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="1ee588ff2c4daf7b97c1cbf922a6c7f027285c2f">
+        <dex dex="/xtra/workspaceNanoDegree/Football_Scores-master/app/build/intermediates/pre-dexed/debug/classes-faef2996c058188c0286f7fa92f729e307c9ab28.jar" />
+    </item>
+    <item
+        jar="/home/cammac/.gradle/caches/modules-2/files-2.1/joda-time/joda-time/2.7/5599707a3eaad13e889f691b3af78c8c03842195/joda-time-2.7.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="5599707a3eaad13e889f691b3af78c8c03842195">
+        <dex dex="/xtra/workspaceNanoDegree/Football_Scores-master/app/build/intermediates/pre-dexed/debug/joda-time-2.7-261dcc378b1bb33829d571072611185bd7a96cc5.jar" />
+    </item>
+    <item
+        jar="/xtra/workspaceNanoDegree/Football_Scores-master/app/build/intermediates/exploded-aar/Football_Scores-master/volley/unspecified/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="792256b621e5c9b437a2896e2a8f37d3a65aec8e">
+        <dex dex="/xtra/workspaceNanoDegree/Football_Scores-master/app/build/intermediates/pre-dexed/debug/classes-0dd940a5ba7b5d38878acd23ea191857f3fb377e.jar" />
+    </item>
+    <item
+        jar="/xtra/workspaceNanoDegree/Football_Scores-master/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/libs/internal_impl-22.2.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="57f2ab85c164ff1676ec64dee787981c046fab79">
+        <dex dex="/xtra/workspaceNanoDegree/Football_Scores-master/app/build/intermediates/pre-dexed/debug/internal_impl-22.2.0-eb89f1f6d62dd0744ef668f074dfedc667a96d2c.jar" />
+    </item>
+    <item
+        jar="/xtra/3rdParties/Android/adt-bundle-linux-x86_64-20140702/sdk/extras/android/m2repository/com/android/support/support-annotations/22.2.0/support-annotations-22.2.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="66b42a1f3eb7676070b7ef7f14b603483aecbee1">
+        <dex dex="/xtra/workspaceNanoDegree/Football_Scores-master/app/build/intermediates/pre-dexed/debug/support-annotations-22.2.0-beb010dbb95d5c2a526874605b6110facc522267.jar" />
+    </item>
+    <item
+        jar="/home/cammac/.gradle/caches/modules-2/files-2.1/com.loopj.android/android-async-http/1.4.9/386a4339ffe52d5d63e80f9bed8d2b1d1a418249/android-async-http-1.4.9.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="386a4339ffe52d5d63e80f9bed8d2b1d1a418249">
+        <dex dex="/xtra/workspaceNanoDegree/Football_Scores-master/app/build/intermediates/pre-dexed/debug/android-async-http-1.4.9-cc8b53210b328d1c974ac5009bac23d91f51a3a1.jar" />
+    </item>
+
+</items>

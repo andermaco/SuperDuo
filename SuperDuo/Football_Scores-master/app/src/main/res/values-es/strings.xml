@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Futbol - Resultados</string>
+    <string name="about">Acerca de</string>
+    <string name="action_settings">Configuración</string>
+    <string name="add_widget">Añadir Widget</string>
+    <string name="appwidget_text">Futbol - Resultados</string>
+    <string name="quarter_final">Cuartos de Final</string>
+    <string name="semi_final">Semi-finales</string>
+    <string name="today">Hoy</string>
+    <string name="tomorrow">Mañana</string>
+    <string name="widget_title">Futbol - Resultados</string>
+    <string name="yesterday">Ayer</string>
+    <string name="no_match">!Sin partidos¡</string>
+    <string name="about_text">
+        Esta aplicación obtiene los resultados de los partidos de las ligas: Premier League, Seria A, Bundesliga, Primera Division
+        y la Champions League.
+        Todos los partidos y sus resultados se obtienen de football-data.org.
+        Todos los iconos de los equipos son públicos y se han obtenido de http://hdlogo.wordpress.com/ bajo petición del propietario.
+        La versión original de esta aplicación fue creada por Yahia Khalid Ibn El Walid Ahmed. Cualquier sugerencia, por favor envíe un correo a y.k.ibnelwalid@gmail.com.
+    </string>
+
+</resources>

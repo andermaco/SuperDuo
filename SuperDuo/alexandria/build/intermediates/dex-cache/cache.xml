@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/xtra/workspaceNanoDegree/alexandria/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="09c5e804bc67fc0580360043dff067df574a60d4">
+        <dex dex="/xtra/workspaceNanoDegree/alexandria/app/build/intermediates/pre-dexed/debug/classes-af8bdc03dcfbfbbfd2a485b87fade7c3dd72faf9.jar" />
+    </item>
+    <item
+        jar="/xtra/workspaceNanoDegree/alexandria/app/build/intermediates/exploded-aar/com.android.support/preference-v7/23.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="b03135a5ed6b57ecc9cb8f30028deeeb3b869a74">
+        <dex dex="/xtra/workspaceNanoDegree/alexandria/app/build/intermediates/pre-dexed/debug/classes-dde427f4d77377735577adcefbdef8994d46f373.jar" />
+    </item>
+    <item
+        jar="/xtra/workspaceNanoDegree/alexandria/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="5c5699834e9722f1c288fea2de82725d078ba127">
+        <dex dex="/xtra/workspaceNanoDegree/alexandria/app/build/intermediates/pre-dexed/debug/classes-f35622e7db6e428e8f8ffa32c6dd5c2310afc0a1.jar" />
+    </item>
+    <item
+        jar="/home/cammac/.gradle/caches/modules-2/files-2.1/com.squareup.picasso/picasso/2.5.2/7446d06ec8d4f7ffcc53f1da37c95f200dcb9387/picasso-2.5.2.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="/xtra/workspaceNanoDegree/alexandria/app/build/intermediates/pre-dexed/debug/picasso-2.5.2-3d9a9e32ba77a2e0a3b24bc6f8b607a041cdcc3d.jar" />
+    </item>
+    <item
+        jar="/xtra/workspaceNanoDegree/alexandria/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/jars/libs/internal_impl-23.1.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="a4de9c81ae239414e1ed0f86441b02abaf29bca9">
+        <dex dex="/xtra/workspaceNanoDegree/alexandria/app/build/intermediates/pre-dexed/debug/internal_impl-23.1.1-f6ef51a3bf5d4421cddae64d6a4133040fb7e6d1.jar" />
+    </item>
+    <item
+        jar="/home/cammac/.gradle/caches/modules-2/files-2.1/com.google.zxing/core/3.2.0/e019d15a13a9786f881141d2df6654b8510bce8b/core-3.2.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="e019d15a13a9786f881141d2df6654b8510bce8b">
+        <dex dex="/xtra/workspaceNanoDegree/alexandria/app/build/intermediates/pre-dexed/debug/core-3.2.0-cbc1f80bfcc41490b8b3a20345670180c4377b8c.jar" />
+    </item>
+    <item
+        jar="/xtra/workspaceNanoDegree/alexandria/app/build/intermediates/exploded-aar/com.journeyapps/zxing-android-embedded/3.0.3/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="eccf1a2cb72813a3099bc2618ea9d6430b92f0fc">
+        <dex dex="/xtra/workspaceNanoDegree/alexandria/app/build/intermediates/pre-dexed/debug/classes-96e564dbe5605205a20f50f30cd493f61fdb5d8f.jar" />
+    </item>
+    <item
+        jar="/xtra/workspaceNanoDegree/alexandria/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="6cbc7773921fcfedbe55657578f0cbfe614778dc">
+        <dex dex="/xtra/workspaceNanoDegree/alexandria/app/build/intermediates/pre-dexed/debug/classes-ff1792a58e8c0f17d05009fcd25f4f9aed9a6e24.jar" />
+    </item>
+    <item
+        jar="/xtra/3rdParties/Android/adt-bundle-linux-x86_64-20140702/sdk/extras/android/m2repository/com/android/support/support-annotations/23.1.1/support-annotations-23.1.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="8d680ba5a623724d1fb0e81c36a790f023a6cede">
+        <dex dex="/xtra/workspaceNanoDegree/alexandria/app/build/intermediates/pre-dexed/debug/support-annotations-23.1.1-ee65f842c1ef44246518816eb1396c44a6328a31.jar" />
+    </item>
+
+</items>

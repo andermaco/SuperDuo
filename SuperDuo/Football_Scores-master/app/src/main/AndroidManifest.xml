@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest package="barqsoft.footballscores"
+          xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- <uses-permission -->
+    <!-- android:name="android.permission.INTERNET" -->
+    <!-- android:maxSdkVersion="22" /> -->
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <provider
+            android:name=".ScoresProvider"
+            android:authorities="barqsoft.footballscores"
+            android:grantUriPermissions="true"
+            android:readPermission="barqsoft.footballscores.READ_CONTENT"
+            android:writePermission="barqsoft.footballscores.WRITE_CONTENT"/>
+        <activity
+            android:name=".AboutActivity"
+            android:label="About"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="barqsoft.footballscores.MainActivity"/>
+        </activity>
+        <service android:name=".service.FetchDataService"/>
+        <receiver android:name=".widget.FootballScoreWidget">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="barqsoft.footballscores.service.BROADCAST_DATA_UPDATED"/>
+            </intent-filter>
+<intent-filter>
+    <action android:name="barqsoft.footballscores.service.APPWIDGET_CLICKED"/>
+</intent-filter>
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/football_score_widget_info"/>
+        </receiver>
+
+        <receiver android:name=".widget.AlarmManagerBroadcastReceiver" android:exported="true">
+            <intent-filter>
+                <action android:name="barqsoft.footballscores.widget.WAKE_UP" >
+                </action>
+            </intent-filter>
+        </receiver>
+
+        <service android:name=".widget.FootballScoreService"
+                 android:permission="android.permission.BIND_REMOTEVIEWS">
+        </service>
+
+    </application>
+
+</manifest>
