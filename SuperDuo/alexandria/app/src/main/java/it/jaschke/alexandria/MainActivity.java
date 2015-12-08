@@ -35,6 +35,7 @@ public class MainActivity extends ActionBarActivity implements
     public static final String MESSAGE_KEY = "MESSAGE_EXTRA";
     public static final String MESSAGE_LIST_BOOKS = "LIST_BOOKS";
     public static final String POSITION_STATE = "position";
+public static final String NO_CONNECTION = "it.jaschke.alexandria.MainActivity.NO_CONNECTION";
 
     public static boolean IS_TABLET = false;
     private int mMenuposition;
@@ -256,6 +257,10 @@ public class MainActivity extends ActionBarActivity implements
                 if (isTablet() && getResources().getConfiguration().orientation == Configuration.ORIENTATION_LANDSCAPE ) {
                     getSupportFragmentManager().popBackStack();
                 }
+            }
+            // Showing dialog fragment when no connection
+            if (intent.getAction().equals(MainActivity.NO_CONNECTION)) {
+                onNotConnectionProvided();
             }
         }
     }
